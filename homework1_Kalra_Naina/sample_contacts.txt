@@ -1,0 +1,22 @@
+import contact_manager as cm
+
+# Creating an empty contact database dictionary
+contacts = {}
+
+# Adding a new contact
+contact1_id = cm.add_contact(contacts, {
+    'first_name': 'Jack',
+    'last_name': 'Son',
+    'phone': '777-247-3847',
+    'email': 'jaxon@email.com',
+    'category': 'work'
+})
+
+# Searching contacts
+results = cm.search_contacts_by_name(contacts, 'Jack')
+for cid, data in results.items():
+    cm.display_contact(contacts, cid)
+
+# Showing statistics
+stats = cm.generate_contact_statistics(contacts)
+print(f"Total contacts: {stats['total_contacts']}")
