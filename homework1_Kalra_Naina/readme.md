@@ -30,7 +30,7 @@ This project was created to practice Python concepts like dictionary methods, er
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/<your-username>/Python-Learning.git
+   git clone https://github.com/NainaKalra>/Python-Learning.git
    ```
 2. Go to the homework folder:
 
