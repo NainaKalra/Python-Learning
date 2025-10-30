@@ -20,7 +20,7 @@ my_car = Car("Toyota", "Camry")
 my_car.start() 
 my_car.honk()   
 
-Intermediate Level (without using super())
+# Intermediate Level 
 
 class Vehicle:
     def __init__(self, brand, model, wheels):
@@ -51,7 +51,7 @@ car_name.start()
 bike_name.start()
 bike_name.wheelie()
 
-Beginner Level
+# Beginner Level
 
 class Shape:
     def __init__(self, name):
@@ -188,7 +188,7 @@ print(f"Name: {person.name}, Student ID: {person.student_id}, Employee ID: {pers
 person.study()
 person.work()
 
-Intermediate Level
+# Intermediate Level
 
 class LandVehicle:
     def __init__(self):
